@@ -35,6 +35,12 @@ Set up your Google API key from `https://makersuite.google.com/app/apikey` by cr
 
 `GOOGLE_API_KEY =<your-api-key-here>`
 
+Before Run Streamlit you have to enter into environment: 
+`.\.venv\Scripts\activate`
+
+If you Find Any Error then you can simply write and hit enter:
+`Set-ExceutionPolicy -Scope Process -ExcetionPolicy Bypass`
+
 Run the Streamlit app:
 
 `streamlit run app.py`
